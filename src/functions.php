@@ -25,7 +25,7 @@ function map($threads, callable $callable, $collection)
  */
 function filter($threads, callable $predicate, $collection)
 {
-    $results =  _parallel($threads, function(array $chunk) use($predicate) {
+    $results = _parallel($threads, function(array $chunk) use($predicate) {
         return array_filter($chunk, $predicate);
     }, $collection);
 
