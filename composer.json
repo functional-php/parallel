@@ -1,0 +1,32 @@
+{
+  "name": "functional-php/parallel",
+  "description": "Parallel implementation of some higher-order functions.",
+  "keywords": ["parallel", "pthreads", "threads", "higher-order functions", "map", "mapping", "fold", "folding", "filter", "filtering"],
+  "license": "BSD",
+  "authors": [
+    {
+      "name": "Gilles Crettenand",
+      "email": "gilles@crettenand.info"
+    }
+  ],
+  "require": {
+    "php": ">=7.0.0"
+  },
+  "suggest": {
+    "krakjoe/pthreads-polyfill": "If you are not sure pthreads are available, this polyfill will allow to run the code sequentially without any chance to your code."
+  },
+  "require-dev": {
+    "atoum/atoum": "*"
+  },
+  "scripts": {
+    "test": "./vendor/bin/atoum --enable-branch-and-path-coverage"
+  },
+  "autoload": {
+    "psr-4": {
+      "FunctionalPHP\\Parallel\\": "./src"
+    },
+    "files": [
+      "src/functions.php"
+    ]
+  }
+}
