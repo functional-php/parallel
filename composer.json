@@ -2,7 +2,7 @@
   "name": "functional-php/parallel",
   "description": "Parallel implementation of some higher-order functions.",
   "keywords": ["parallel", "pthreads", "threads", "higher-order functions", "map", "mapping", "fold", "folding", "filter", "filtering"],
-  "license": "BSD",
+  "license": "BSD-3-Clause",
   "authors": [
     {
       "name": "Gilles Crettenand",
