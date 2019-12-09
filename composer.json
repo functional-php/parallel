@@ -10,7 +10,8 @@
     }
   ],
   "require": {
-    "php": ">=7.0.0"
+    "php": ">=7.0.0",
+    "ext-pthreads": "*"
   },
   "suggest": {
     "krakjoe/pthreads-polyfill": "If you are not sure pthreads are available, this polyfill will allow to run the code sequentially without any chance to your code."
