@@ -13,7 +13,7 @@
     "php": ">=7.0.0"
   },
   "suggest": {
-    "krakjoe/pthreads-polyfill": "If you are not sure pthreads are available, this polyfill will allow to run the code sequentially without any chance to your code."
+    "krakjoe/pthreads-polyfill": "If you are not sure pthreads is available, this polyfill will allow you to run the code sequentially without any change to your code."
   },
   "require-dev": {
     "atoum/atoum": "*"
